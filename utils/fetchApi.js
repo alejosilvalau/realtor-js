@@ -10,6 +10,5 @@ export const fetchApi = async (url) => {
 			"x-rapidapi-key": endpoint.ApiKey,
 		},
 	});
-
 	return data;
 };
